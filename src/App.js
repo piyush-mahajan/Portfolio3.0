@@ -173,9 +173,9 @@ function App() {
                     <h3 className="vertical-timeline-element-title">
                       {n.title}
                     </h3>
-                    <h4 className="vertical-timeline-element-subtitle">
+                    <p className="vertical-timeline-element-subtitle">
                       {n.description}
-                    </h4>
+                    </p>
                   </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
