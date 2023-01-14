@@ -4,11 +4,14 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+// import ContactUs from "./Email";
+
 import "react-vertical-timeline-component/style.min.css";
 import { Experience, Projects, SocialLinks } from "./data";
 import { IoLogoGithub, IoMenu } from "react-icons/io5";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { ContactUs } from "./Email";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -107,7 +110,7 @@ function App() {
           </div>
         </nav>
 
-  <div className="w-screen min-h-screen flex-col items-center justify-center relative hidden lg:block">
+        <div className="w-screen min-h-screen flex-col items-center justify-center relative hidden lg:block">
           <Spline scene="https://prod.spline.design/xe1Uo-etdr8rz0t7/scene.splinecode" />
         </div>
         <div className="relative w-full hidden lg:block " id="home">
@@ -216,8 +219,12 @@ function App() {
                 </motion.div>
               ))}
           </section>
+          <section id="contacts">
+            <ContactUs />
+          </section>
+
           <section
-            id="contacts"
+            // id="contacts"
             className="flex flex-col items-center justify-evenly w-full my-24"
           >
             <p className="text-2xl text-gray-400 capitalize">Follow me on</p>
