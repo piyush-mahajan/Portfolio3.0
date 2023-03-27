@@ -24,6 +24,12 @@ function App() {
 
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
+                href="https://www.behance.net/gallery/166246915/personal-portfolio"
+                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+              >
+                BEHANCE
+              </a>
+              <a
                 href="#home"
                 className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
@@ -71,6 +77,13 @@ function App() {
                 className="p-4 w-275 bg-navBar rounded-lg fixed top-24 right-16 flex flex-col items-center justify-evenly gap-6"
               >
                 <a
+                  href="https://www.behance.net/gallery/166246915/personal-portfolio"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+                  onClick={() => setIsActive(false)}
+                >
+                  BEHANCE
+                </a>
+                <a
                   href="#home"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
@@ -99,7 +112,7 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1Fn0csx0dCY773reVXwjPvxlh_m3GBPd7/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1ha93_S44AbiWD6f1XeNPwebjFmuJBRxm/edit?usp=sharing&ouid=103623211086798262664&rtpof=true&sd=true"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
