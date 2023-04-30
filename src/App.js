@@ -124,7 +124,7 @@ function App() {
         </nav>
 
         <div className="w-screen min-h-screen flex-col items-center justify-center relative hidden lg:block">
-          <Spline scene="https://prod.spline.design/xe1Uo-etdr8rz0t7/scene.splinecode" />
+             <Spline scene="https://prod.spline.design/xe1Uo-etdr8rz0t7/scene.splinecode" />
         </div>
         <div className="relative w-full hidden lg:block " id="home">
           <div className="absolute bottom-10 w-full flex justify-center items-center ">
