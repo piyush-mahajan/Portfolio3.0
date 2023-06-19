@@ -54,7 +54,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1Fn0csx0dCY773reVXwjPvxlh_m3GBPd7/view?usp=sharing"
+                href="https://docs.google.com/document/d/1hOJpUOYcnhWboLJjPJQJ0Nf-F0EGJxySi1uvIHwN0WU/edit?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
@@ -112,7 +112,7 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1ha93_S44AbiWD6f1XeNPwebjFmuJBRxm/edit?usp=sharing&ouid=103623211086798262664&rtpof=true&sd=true"
+                  href="https://docs.google.com/document/d/1hOJpUOYcnhWboLJjPJQJ0Nf-F0EGJxySi1uvIHwN0WU/edit?usp=sharing"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
